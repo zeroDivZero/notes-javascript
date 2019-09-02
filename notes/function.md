@@ -59,7 +59,7 @@ Invoked as soon as defined. Common pattern if function only used once.
 
 ## Arguments
 
-Args passed by value. Though object references passed by value, changing object properties visible outside function.
+Args passed by value. Though object reference passed by value, changing object properties visible outside function.
 
 ## First-Class Object
 
