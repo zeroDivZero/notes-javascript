@@ -2,7 +2,7 @@
 
 ## Function Statement
 
-Also known as **function declaration**.
+Aka **function declaration**.
 
 ```javascript
 function calcRectArea(width, height) {
