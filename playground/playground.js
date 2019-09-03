@@ -1,39 +1,66 @@
-const continents = ["Asia", "Australia", "Europe", "Africa", "North America", "South America", "Antarctica"];
+const john = {
+    fullName: 'John Smith',
+    bills: [124, 48, 268, 180, 42],
 
-for (let i = 0; i < continents.length; ++i) {
-    console.log(i + " " + continents[i]);
+    calcTips: function() {
+        let tips = [];
+        let totals = [];
+        for (let i = 0; i < this.bills.length; ++i) {
+            const bill = this.bills[i];
+            switch(true) {
+                case bill < 50:
+                    tips.push(bill * 0.2);
+                    break;
+                case bill < 200:
+                    tips.push(bill * 0.15);
+                    break;
+                default:
+                    tips.push(bill * 0.1);
+            }
+
+            totals.push(bill + tips[i]);
+        }
+
+        this.tips = tips;
+        this.totals = totals;
+    }
 }
 
-// multiple variables
-for (let exp = 1, pow = 2; exp <= 10; ++exp, pow *= 2) {
-    console.log('2 to the ' + exp + 'th power is ' + pow + '.');
+john.calcTips();
+console.log(john);
+
+const mark = {
+    fullName: 'Mark Miller',
+    bills: [77, 375, 110, 45],
+
+    calcTips: function() {
+        let tips = [];
+        let totals = [];
+        for (let i = 0; i < this.bills.length; ++i) {
+            const bill = this.bills[i];
+            switch(true) {
+                case bill < 100:
+                    tips.push(bill * 0.2);
+                    break;
+                case bill < 300:
+                    tips.push(bill * 0.1);
+                    break;
+                default:
+                    tips.push(bill * 0.25);
+            }
+
+            totals.push(bill + tips[i]);
+        }
+
+        this.tips = tips;
+        this.totals = totals;
+    }
 }
 
-for (const i in continents) {
-    console.log(i + " " + continents[i]);
-}
+mark.calcTips();
+console.log(mark);
 
-// loop through dictionary
-const person = {initials: 'DR', age: 40, job: 'Professor'};
-for (const key in person) {   // key
-    console.log(key + " = " + person[key]);
-}
+const avgTips = tips => tips.reduce((sum, val) => sum + val, 0) / tips.length;
 
-// for..of
-for (const v of continents) { // value
-    console.log(v);
-}
-
-// while
-let i = 10;
-while (i > 0) {
-    console.log(i);
-    --i;
-}
-
-// do..while
-let j = 0;
-do {
-    console.log(j);
-    ++j;
-} while (j < 10);
+console.log(avgTips(john.tips));
+console.log(avgTips(mark.tips));
