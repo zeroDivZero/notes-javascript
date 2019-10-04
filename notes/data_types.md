@@ -21,6 +21,8 @@ Allows type to be inferred as another type (**type coercion**).
 let b = 1 + '2'  // '12'
 ```
 
+Opposite of _strongly typed_.
+
 ## typeof
 
 Operator to reveal type of variable.
