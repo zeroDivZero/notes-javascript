@@ -19,5 +19,12 @@ const name1 = names.pop();    // remove from end
 names.unshift('Mike');        // add to front
 const name2 = names.shift();  // remove from front
 
-const index = names.indexOf('Jane');  // 2; -1 if not found
+const index = names.indexOf('Jane'); // 2; -1 if not found
+```
+
+## Destructuring
+
+```javascript
+const a = ['mary', 'john', 'peter'];
+const [name1, name2] = a; // name1 === 'mary', name2 === 'john'
 ```
