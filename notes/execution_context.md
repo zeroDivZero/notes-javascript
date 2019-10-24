@@ -16,4 +16,4 @@ lastName === window.lastName  // true
 
 Every time function called, gets its own context, pushed to top of **execution stack**. Top of stack is always active context.
 
-![execution stack](https://github.com/zeroDivZero/notes-javascript/blob/master/assets/js_engine.png)
+![execution stack](https://github.com/zeroDivZero/notes-javascript/blob/master/assets/execution_stack.png)
