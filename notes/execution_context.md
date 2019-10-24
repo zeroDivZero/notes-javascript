@@ -12,7 +12,7 @@ Can think of as object, known as **global object**. In browser, it is `window` o
 lastName === window.lastName  // true
 ```
 
-## Context for Function
+## Functional Execution Context
 
 Every time function called, gets its own context, pushed to top of **execution stack**. Top of stack is always active context.
 
