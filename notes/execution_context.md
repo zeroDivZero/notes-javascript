@@ -33,3 +33,9 @@ Every time function called, gets its own context, pushed to top of **execution s
    * Determine value of `this`
 2. Execution phase:
    * Code of func that generated current context is executed line by line.
+
+## Variable Object
+
+Arg obj created, containing all args passed to func.
+
+Code scanned for func declarations. For each func, prop created in VO, pointing to func.
