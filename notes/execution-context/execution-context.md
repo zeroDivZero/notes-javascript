@@ -16,7 +16,7 @@ lastName === window.lastName  // true
 
 Every time function called, gets its own context, pushed to top of **execution stack**. Top of stack is always active context.
 
-![execution stack](../assets/execution_stack.png)
+![execution stack](../../assets/execution_stack.png)
 
 ## Creating Context
 
