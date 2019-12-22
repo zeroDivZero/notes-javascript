@@ -33,7 +33,7 @@ Every time function called, gets its own context, pushed to top of **execution s
    * Creation of scope chain
    * Determine value of `this`
 2. Execution phase:
-   * Code of func that generated current context is executed line by line
+   * Code of func that generated current context executed line by line
 
 ## Variable Object
 
