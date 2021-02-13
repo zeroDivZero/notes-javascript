@@ -1,8 +1,8 @@
 # `import`, `export`
 
-Export as **named** or **default** (no name). If named, import must use same name. For default, import can rename.
+Export as **named** or **default** (no name). If named, must import with same name; for default, can rename.
 
-```javascript
+```js
 // export_module.js
 const appName = 'My Application'
 const supportEmail = 'help@email.com'
@@ -12,7 +12,8 @@ const getGreeting = (name) => {
 }
 
 export { supportEmail, getGreeting, appName as default }
-
+```
+```js
 // import_module.js
 import nameOfApp, {supportEmail, getGreeting } from './export_module'
 
