@@ -1,4 +1,4 @@
-# `import`, `export`
+# `export`, `import`
 
 Export as **named** or **default** (no name). If named, must import with same name; for default, can rename.
 
