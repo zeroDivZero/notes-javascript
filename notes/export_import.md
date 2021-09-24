@@ -13,6 +13,7 @@ const getGreeting = (name) => {
 
 export { supportEmail, getGreeting, appName as default }
 ```
+
 ```js
 // import_module.js
 import nameOfApp, {supportEmail, getGreeting } from './export_module'
