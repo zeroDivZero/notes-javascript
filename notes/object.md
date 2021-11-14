@@ -37,4 +37,4 @@ john.calcAge = function() {
 console.log(john.calcAge());
 ```
 
-`this` refers to object itself. Can be used to assign value to property within function as well.
+`this` refers to object itself. Can be used to assign value to property within func as well.

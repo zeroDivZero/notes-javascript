@@ -4,9 +4,9 @@ Delay instruction execution.
 
 ## `setTimeout()`
 
-Sets timer which executes function or code once when timer expires.
+Sets timer which executes func or code once when timer expires.
 
-```
+```js
 var timeoutID = setTimeout(function[, delay, arg1, arg2, ...]);
 var timeoutID = setTimeout(code[, delay]);
 ```
@@ -41,7 +41,7 @@ Move image rightward:
 
 ## `setInterval()`
 
-Repeatedly calls function or executes code, with fixed time delay between each call.
+Repeatedly calls func or executes code, with fixed time delay between each call.
 
 ```
 var intervalID = setInterval(func, delay, [arg1, arg2, ...]);

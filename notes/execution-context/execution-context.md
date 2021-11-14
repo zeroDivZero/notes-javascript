@@ -4,7 +4,7 @@ Runtime env of code. Container that stores variables and in which code is evalua
 
 ## Global Execution Context
 
-Default, created before executing any code. Context for any code not inside functions.
+Default, created before executing any code. Context for any code not inside funcs.
 
 Can think of as object, known as **global object**. In browser, it is `window` object.
 
@@ -14,7 +14,7 @@ lastName === window.lastName  // true
 
 ## Functional Execution Context
 
-Every time function called, gets its own context, pushed to top of **execution stack**. Top of stack is always active context.
+Every time func called, gets its own context, pushed to top of **execution stack**. Top of stack is always active context.
 
 ![execution stack](../../assets/execution_stack.png)
 
