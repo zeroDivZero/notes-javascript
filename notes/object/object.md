@@ -29,7 +29,7 @@ jane.birthYear = 1992;
 
 ## Method
 
-```javascript
+```js
 john.calcAge = function() {
     const date = new Date();
     return date.getFullYear() - this.birthYear;
