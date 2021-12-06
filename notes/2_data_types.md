@@ -23,7 +23,7 @@ let b = 1 + '2'  // '12'
 
 Opposite of _strongly typed_.
 
-## typeof
+## `typeof`
 
 Operator to reveal type of variable.
 
@@ -38,10 +38,10 @@ typeof true  // 'boolean'
 * **Boolean** — `true` or `false`.
 * **Number** — Floating point. No separate integer type.
 * **String** — Array of characters.
-* **Null** — Value representing _absence of value_.
+* **Null** — _Absence of value_. Represented by `null`.
 * **Undefined** — Type of variable that hasn't been assigned a value. Don't assign `undefined` to variable.
 * **Symbol** — Unique value not equal to any other value.
 
 ## Object
 
-Every non-primitive is **Object** type.
+Collection of related data. Every non-primitive is **Object** type.
