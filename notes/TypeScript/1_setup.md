@@ -6,7 +6,7 @@ Install compiler (globally):
 npm i -g typescript ts-node
 ```
 
-`ts-node` is convenient TypeScript execution and REPL for node.
+`ts-node` is convenient TS execution and REPL for node.
 
 ## Verify
 
@@ -14,7 +14,7 @@ npm i -g typescript ts-node
 tsc --help
 ```
 
-`tsc` is TypeScript compiler.
+`tsc` is TS compiler.
 
 ## Node Types
 
