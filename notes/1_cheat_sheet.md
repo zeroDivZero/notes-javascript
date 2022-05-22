@@ -36,8 +36,8 @@ var b = false
 var array = [1, 1, 2, 3, 5]
 var rgx = /()/ // regex
 var h = function(){} // function object
-var a = 1, b = 2, c = a + b;
-let z = 'zzz'; // block-scope local variable
+var a = 1, b = 2, c = a + b
+let z = 'zzz' // block-scope local variable
 ```
 
 ## Constant
