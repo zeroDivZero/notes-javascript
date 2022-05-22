@@ -15,6 +15,11 @@ export { supportEmail, getGreeting, appName as default }
 ```
 
 ```js
+// shorthand if only exporting default
+export default appName
+```
+
+```js
 // import_module.js
 import nameOfApp, {supportEmail, getGreeting } from './export_module'
 
