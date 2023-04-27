@@ -19,3 +19,28 @@ document.querySelector("#hello").innerHTML = "<em>Hello~</em>";
 // find elem of class "pixel" and hide it
 document.querySelector(".pixel").style.display = "none";
 ```
+
+## `getElementById()`
+
+```js
+const app = document.getElementById('app');
+```
+
+## `createElement()`
+
+```js
+const header = document.createElement('h1');
+```
+
+## `createTextNode()`
+
+```js
+const headerContent = document.createTextNode('Develop. Preview. Ship. 🚀');
+```
+
+## `appendChild()`
+
+```js
+header.appendChild(headerContent);
+app.appendChild(header);
+```
